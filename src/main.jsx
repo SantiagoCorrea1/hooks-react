@@ -5,11 +5,15 @@ import './index.css'
 //import { SimpleForm } from './02-useEffect/SimpleForm.jsx'
 // import { FormWithCustomHook } from './02-useEffect/FormWithCustomHook.jsx'
 //import { MultipleCustomHook } from './03-examples/MultipleCustomHook.jsx'
-import { FocusScreen } from './04-useRef/FocusScreen.jsx'
-import { Layout } from './05-useLayout/Layaout.jsx'
+//import { FocusScreen } from './04-useRef/FocusScreen.jsx'
+//import { Layout } from './05-useLayout/Layaout.jsx'
+// import { Padre } from './07-tarea-memo/Padre.jsx'
+//import './08-useReduce/intro-reducer.js';
+import { TodoApp } from './08-useReduce/TodoApp.jsx';
+
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Layout />
+    <TodoApp />
   </StrictMode>,
 )
