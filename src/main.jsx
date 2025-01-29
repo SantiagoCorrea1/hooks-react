@@ -9,11 +9,15 @@ import './index.css'
 //import { Layout } from './05-useLayout/Layaout.jsx'
 // import { Padre } from './07-tarea-memo/Padre.jsx'
 //import './08-useReduce/intro-reducer.js';
-import { TodoApp } from './08-useReduce/TodoApp.jsx';
+// import { TodoApp } from './08-useReduce/TodoApp.jsx';
+import { MainApp } from './09-useContext/MainApp.jsx';
+import { BrowserRouter } from "react-router";
 
 
 createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <TodoApp />
-  </StrictMode>,
+  // <StrictMode>
+  <BrowserRouter>
+    <MainApp />
+  </BrowserRouter>
+  // </StrictMode>,
 )
